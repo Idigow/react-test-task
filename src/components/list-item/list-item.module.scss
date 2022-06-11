@@ -1,0 +1,15 @@
+.listItem{
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  border: solid 1px gray;
+  transition: 0.5s;
+  &:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgba(48, 138, 146, 0.54);
+  }
+}
